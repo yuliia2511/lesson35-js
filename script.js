@@ -60,7 +60,7 @@ row1.append(title1, title2, title3);
 
 thead.appendChild(row1);
 
-//Data for socond row
+//Data for second row
 const row2 = document.createElement('tr');
 const row2_info1 = document.createElement('td');
 row2_info1.innerHTML = '1.';
@@ -219,6 +219,10 @@ for (let e of columns) e.onclick = th_click;
 
 function th_click() {
     let i = columns.indexOf(this);
+   if (i === 0) {
+    rows.sort((a, b) => a.cells[i].textContent - b.cells[i].textContent)
+   } else {
     rows.sort((a, b) => a.cells[i].textContent.localeCompare(b.cells[i].textContent));
+   }
     for (let e of rows) tbody.appendChild(e);
 };
