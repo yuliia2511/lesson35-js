@@ -1,0 +1,98 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: rgb(238, 174, 202);
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: 4px 3px 0px #7A7A7A;
+    text-shadow: 0 0 15px rgba(255, 255, 255, .5), 0 0 10px rgba(255, 255, 255, .5);
+    color: white;
+    font-size: 150px;
+}
+
+.section__textarea {
+    width: 300px;
+    margin: 20px auto;
+    padding: 30px;
+    display: block;
+    position: relative;
+    text-align: center;
+    border: 3px solid white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 10px;
+    background: #eae8ffa2;
+    box-shadow: 0 0 15px rgba(255, 255, 255, .5), 0 0 10px rgba(255, 255, 255, .5);
+}
+
+.section__textarea--resizer {
+    display: block;
+    position: absolute;
+    right: -3vh;
+    bottom: -3vh;
+    z-index: 1;
+    width: 10px;
+    height: 10px;
+    border-radius: 10%;
+    background-color: white;
+    border: 3px solid white;
+    cursor: col-resize;
+    box-shadow: 0 0 15px rgba(255, 255, 255, .5), 0 0 10px rgba(255, 255, 255, .5);
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+    margin: 20px auto;
+    padding: 30px;
+    display: block;
+    position: relative;
+    text-align: center;
+    color: white;
+    border: 3px solid white;
+    font-size: 10px;
+    background: #606c845e;
+    box-shadow: 0 0 15px rgba(255, 255, 255, .5), 0 0 10px rgba(255, 255, 255, .5);
+}
+
+.section__table {
+    position: relative;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 200px;
+    text-align: center;
+    border: 3px solid white;
+    font-size: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, .5), 0 0 10px rgba(255, 255, 255, .5);
+}
+
+th, td {
+    padding: 10px 20px;
+    border: 3px solid white;
+    width: 180px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, .5), 0 0 10px rgba(255, 255, 255, .5);
+}
+
+th {
+    font-size: 15px;
+    text-decoration: solid;
+    background: #606c8436;
+}
+
+td {
+    background: #eae8ffa2;;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    border-collapse:collapse;
+}
